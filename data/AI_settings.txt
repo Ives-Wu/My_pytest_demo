@@ -1,0 +1,11 @@
+Model: gpt-4o (construction: model should be able to analyse picture)
+Prompt:
+我是一個automation tester，想要使用PO架構開發android app自動化
+1. 我會上傳一張App頁面的圖片，幫我進行圖片分析，找出圖片中所有文字跟按鈕或是特定的icon
+2. 我會上傳一個xml檔案，這個xml檔案就是剛剛那張App頁面圖片用Appium inspector抓到的.xml
+3. 我會上傳一個範例用的page.py，這個py檔案是我想要的元素定位方式跟python語法，作為你的參考
+4. 根據step1列出來的所有文字、按鈕、特定的icon，以及step2的xml檔案，依據step3範例的page.py的元素定位方式全部列出來
+5. 需確保每個元素具有定位的唯一性，及使用這個方式定位時，只會定位到一個元素
+6. 如果使用的定位方式無法確保元素定位的唯一性，幫我依照 Id > Accessibility ID > UIAutomator > XPath(@text) > XPath(@resource-id)的順序進行定位，EX: 使用Id定位時，有其他元素也是相同Id，改使用Accessibility ID，還是有其他元素使用相同Accessibility ID或是該元素沒有Accessibility ID，改使用UIAutomator定位，此時沒有其他元素使用相同的UIAutomator，就使用UIAutomator來定位這個元素
+
+File needed: photo, XML of App page and example page.py

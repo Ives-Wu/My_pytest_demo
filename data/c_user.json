@@ -1,0 +1,32 @@
+
+{
+    "user1": {
+        "user": "希特勒",
+        "tester": "ives",
+        "email": "cprofile_stg180@104.com.tw",
+        "password": "123qwe",
+        "remark": "stg"
+    },
+    "user2": {
+        "user": "",
+        "tester": "ives",
+        "email": "cprofile_lab390@104.com.tw",
+        "password": "123qwe",
+        "remark": "lab"
+    },
+    "user3": {
+        "user": "",
+        "tester": "ives",
+        "email": "cprofile_prod025@104.com.tw",
+        "password": "123qwe",
+        "remark": "prod"
+    },
+    "user4": {
+        "user": "",
+        "tester": "automation",
+        "email": "autotest04@104.com.tw",
+        "password": "QaY20M09D30",
+        "remark": "prod"
+    }
+}
+
